@@ -1,0 +1,161 @@
+$color-primary: #FF6060;
+$color-secondary: #E3E3E3;
+
+.FicheLogement {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  max-height: 100%;
+  color: $color-primary;
+
+  .titles {
+    max-width: 100%;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  @media (max-width: 1240px) {
+    margin: 0;
+  }
+
+  .location {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .tags {
+    margin-top: 20px;
+  }
+
+  .tags > span {
+    margin-right: 10px;
+    padding: 5px 25px;
+    background: $color-primary;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 190px;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+    @media (max-width: 600px) {
+      padding: 5px;
+    }
+  }
+
+  .frames {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 1240px;
+    max-width: 100%;
+
+    @media (max-width: 1240px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .barre-description {
+    max-width: 500px;
+    margin-right: 200px;
+
+    @media (max-width: 1240px) {
+      margin-bottom: 20px;
+      margin-right: 0;
+      align-items: center;
+    }
+  }
+
+  .barre-equipements {
+    max-width: 500px;
+  }
+
+  .FicheLogement .scrollingMenu {
+    margin: 0;
+  }
+
+  .eachEquipment {
+    display: block;
+  }
+
+  p.description {
+    margin: 0;
+  }
+
+  .first-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .Host {
+    display: flex;
+    width: auto;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .nameHost {
+    width: 50%;
+    display: flex;
+    font-size: 19px;
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 5px;
+  }
+
+  .pictureHost {
+    border-radius: 80px;
+    width: 90px;
+
+    @media (max-width: 1240px) {
+      border-radius: 50px;
+      width: 60px;
+    }
+  }
+}
+
+.host-and-rate {
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  margin-top: 10px;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-top: 18px;
+    justify-content: space-between;
+  }
+}
+.Rate {
+    display: flex;
+    align-items: flex-start;
+    font-size: 23px;
+    margin-top: 20px;
+  
+    @media (max-width: 1240px) {
+      margin-top: 15px;
+    }
+  }
+  
+  .filled-star {
+    color: $color-primary;
+    margin-right: 10px;
+  }
+  
+  .empty-star {
+    color: $color-secondary;
+    margin-right: 15px;
+  }

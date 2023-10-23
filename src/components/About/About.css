@@ -1,0 +1,9 @@
+.about {
+  position: relative;
+  border-radius: 25px;
+  max-width: 1440px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}/*# sourceMappingURL=About.css.map */

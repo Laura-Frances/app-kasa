@@ -1,0 +1,14 @@
+.gallery {
+  background: #F7F7F7;
+  border-radius: 25px;
+  max-width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.link:visited {
+  text-decoration: none;
+}/*# sourceMappingURL=gallery.css.map */

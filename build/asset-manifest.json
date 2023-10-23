@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Laura-Frances/Projet6.git/static/css/main.f5127a2f.css",
+    "main.js": "/Laura-Frances/Projet6.git/static/js/main.fee4e2fd.js",
+    "static/media/aboutBanner.png": "/Laura-Frances/Projet6.git/static/media/aboutBanner.abab3f12f4cb82f1dfa1.png",
+    "static/media/backgroundBanner.png": "/Laura-Frances/Projet6.git/static/media/backgroundBanner.d00ae7dd3ef927bb988d.png",
+    "index.html": "/Laura-Frances/Projet6.git/index.html",
+    "main.f5127a2f.css.map": "/Laura-Frances/Projet6.git/static/css/main.f5127a2f.css.map",
+    "main.fee4e2fd.js.map": "/Laura-Frances/Projet6.git/static/js/main.fee4e2fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5127a2f.css",
+    "static/js/main.fee4e2fd.js"
+  ]
+}
